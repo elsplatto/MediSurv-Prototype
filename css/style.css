@@ -44,8 +44,9 @@ a img {border: 0;}
 }
 
 .large, h2 {
-	font-size: 42px;
+	font-size: 32px;
 	line-height: 48px;
+	margin:0 0 20px;
 }
 
 .bigger, h3 {
@@ -102,7 +103,7 @@ section {
 p {text-align:left;}
 
 p.question {
-	margin: 0 0 50px;
+	margin: 0 0 20px;
 	font-size:25px;
 	line-height:1.3em;
 }
@@ -163,12 +164,23 @@ input.login {
 	);
 }
 
+input.login {
+	margin:20px 0 0 0;
+}
+
+input.next {
+	background-image:url(img/r-arrow.png);
+	background-repeat:no-repeat;
+	background-position: 5px center;
+}
+
 input[type='submit'] {
 	width:40%
 }
 
 input[type='submit']:disabled {
-	background:#aaa;
+	background-color:#aaa;
+	background-image:none;
 	color:#bbb;
 	border:1px solid #aaa
 }
